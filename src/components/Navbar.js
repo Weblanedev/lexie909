@@ -64,7 +64,7 @@ const Navbar = () => {
                 className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-yellow-600`}
                 onClick={() => setSelectedItem(link)}
               >
-                <Link href={`#${link}`}>{link}</Link>
+                <Link href={`/#${link}`}>{link}</Link>
               </li>
             ))}
             <li
