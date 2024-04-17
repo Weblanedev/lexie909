@@ -66,7 +66,7 @@ const Navbar = () => {
             {[ "services", "Products",].map((link) => (
               <li
               key={link}
-              className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
+              className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600 cursor-pointer`}
               onClick={() => {
                 setSelectedItem(link)
                 scroll(link)
