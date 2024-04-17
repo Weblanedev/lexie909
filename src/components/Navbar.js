@@ -25,6 +25,11 @@ const Navbar = () => {
     };
   }, []);
 
+  const scroll = (id) => {
+    const element = document.getElementById(id);
+     element.scrollIntoView();
+   }
+
   return (
     <div
       ref={navbar}
@@ -60,11 +65,14 @@ const Navbar = () => {
             </li>
             {[ "services", "Products",].map((link) => (
               <li
-                key={link}
-                className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-yellow-600`}
-                onClick={() => setSelectedItem(link)}
+              key={link}
+              className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-rose-600`}
+              onClick={() => {
+                setSelectedItem(link)
+                scroll(link)
+              }}
               >
-                <Link href={`/#${link}`}>{link}</Link>
+                <p>{link}</p>
               </li>
             ))}
             <li
