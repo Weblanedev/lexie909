@@ -5,8 +5,8 @@ import ThemeProvider from "@/components/ThemeProvider";
 const dmSans = DM_Sans({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
 export const metadata = {
-  title: "CityStead",
-  description: "Whether you're revitalizing your home, building your business, or simply seeking quality goods for everyday living, Citystead has you covered.",
+  title: "PSALMSTONES LTD",
+  description: "At PsalmsTones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. ",
 };
 
 export default function RootLayout({ children }) {
