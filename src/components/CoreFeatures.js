@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 const CoreFeatures = () => {
   return (
@@ -13,9 +14,11 @@ const CoreFeatures = () => {
         <p className="text-lg leading-loose">
         Ready to transform your space? Contact us to schedule a consultation or visit our retail outlet to explore our selection of premium goods.
         </p>
-        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-yellow-600 hover:border-yellow-600 hover:bg-yellow-600 hover:shadow-yellow-600 hover:shadow-2xl rounded-full">
+        <Link href="/contact">
+        <button className="mt-5 w-fit md:text-base text-sm hover:border-2 border-2 border-transparent font-semibold py-3 px-8 md:px-10 text-white bg-yellow-600 hover:border-yellow-600 hover:bg-rose-600 hover:shadow-rose-600 hover:shadow-2xl rounded-full">
           Contact Us
         </button>
+        </Link>
       </div>
 
       <div className="flex-1 relative w-full">
