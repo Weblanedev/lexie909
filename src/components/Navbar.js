@@ -72,16 +72,14 @@ const Navbar = () => {
             >
               <Link href={`/about`}>About</Link>
             </li>
-            {["services", "Products",].map((link) => (
+            {["products",].map((link) => (
               <li
                 key={link}
                 className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-yellow-600 cursor-pointer`}
                 onClick={() => {
-                  setSelectedItem(link)
-                  scroll(link)
                 }}
               >
-                <p>{link}</p>
+                <Link href={`/${link}`}>{link}</Link>
               </li>
             ))}
             <li
