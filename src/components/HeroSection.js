@@ -12,7 +12,7 @@ const HeroSection = () => {
           <p>Decor Destination</p>
         </h1>
         <p className="text-lg leading-normal sm:leading-loose my-4 md:my-6">
-        At PsalmsTones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. From stylish furniture to elegant accents, we offer everything you need to create spaces that reflect your personality and enhance your lifestyle.
+        At Psalmstones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. From stylish furniture to elegant accents, we offer everything you need to create spaces that reflect your personality and enhance your lifestyle.
         </p>
       </div>
       <div className="w-full relative">

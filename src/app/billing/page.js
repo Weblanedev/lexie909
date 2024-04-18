@@ -100,7 +100,7 @@ const Billing = () => {
           <h1 className="font-medium md:font-semibold text-[50px] sm:text-[40px] md:text-[50px] md:text-left leading-snug md:leading-[62px] text-center text-orange-950">
             Order Details
           </h1>
-          <p>Find the best way to get help and connect with CityStead</p>
+          <p>Find the best way to get help and connect with PSALMSTONES</p>
         </div>
       </section>
 
@@ -115,13 +115,13 @@ const Billing = () => {
               <div className="flex flex-col w-full gap-5 md:flex-row">
                 <input
                   type="text"
-                  className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md"
+                  className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md placeholder:text-yellow-500"
                   placeholder="First Name"
                   required
                 />
                 <input
                   type="text"
-                  className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md"
+                  className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md placeholder:text-yellow-500"
                   placeholder="Last Name"
                   required
                 />
@@ -129,14 +129,14 @@ const Billing = () => {
 
               <input
                 type="text"
-                className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md"
+                className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md placeholder:text-yellow-500"
                 placeholder="Phone"
                 required
               />
 
               <input
                 type="email"
-                className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md"
+                className="border border-gray-300 text-gray-900 text-[15px] block w-full p-[15px] rounded-md placeholder:text-yellow-500"
                 placeholder="Email Address"
                 required
               />
@@ -148,7 +148,7 @@ const Billing = () => {
               <textarea
                 id="message"
                 rows={7}
-                className="block p-[15px] w-full text-sm text-gray-900 border border-gray-300 rounded-md"
+                className="block p-[15px] w-full text-sm text-gray-900 border border-gray-300 rounded-md placeholder:text-yellow-500 text-[15px]"
                 placeholder="Your Message"
               ></textarea>
             </div>
@@ -156,7 +156,7 @@ const Billing = () => {
         </div>
 
         <div className="flex flex-col gap-[15px] items-start w-full justify-center">
-          <h4 className="font-bold text-yellow-400 leading-[28px]">
+          <h4 className="font-bold text-yellow-500 leading-[28px]">
             YOUR ORDER
           </h4>
 
@@ -360,7 +360,7 @@ const Billing = () => {
               your experience throughout this website, and for other purposes
               described in our{" "}
               <Link
-                href="/privacy-policy"
+                href="/"
                 className="text-yellow-400 cursor-pointer"
               >
                 privacy policy.

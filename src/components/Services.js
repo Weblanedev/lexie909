@@ -41,12 +41,12 @@ const Services = () => {
            
             </span>
             <h2 className="text-3xl md:text-5xl font-bold text-center lg:text-left">
-            About PsalmsTones Technologies Ltd
+            About Psalmstones Technologies Ltd
             </h2>
           </div>
           <p className="leading-loose">
-          At PsalmsTones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. From stylish furniture to elegant accents, we offer everything you need to create spaces that reflect your personality and enhance your lifestyle.
-          At PsalmsTones Technologies Ltd, our mission is to inspire and empower you to express your unique sense of style through beautifully curated home decor. With our extensive range of products, personalized service, and expert advice, we're here to make your home decor dreams a reality
+          At Psalmstones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. From stylish furniture to elegant accents, we offer everything you need to create spaces that reflect your personality and enhance your lifestyle.
+          At Psalmstones Technologies Ltd, our mission is to inspire and empower you to express your unique sense of style through beautifully curated home decor. With our extensive range of products, personalized service, and expert advice, we're here to make your home decor dreams a reality
           </p>
         </div>
       </div>
