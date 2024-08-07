@@ -144,7 +144,7 @@ const Contact = () => {
 
               <button
                 type="submit"
-                className="text-base font-medium text-white bg-yellow-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-yellow-600 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-yellow-400"
+                className="text-base font-medium text-white bg-yellow-400 rounded-md px-7 md:px-12 py-[15px] hover:bg-amber-700 flex items-center justify-center gap-3 disabled:opacity-50 disabled:cursor-not-allowed disabled:hover:bg-yellow-400"
                 onClick={toggleShowContactModal}
                 disabled={isButtonDisabled}
               >
@@ -154,7 +154,7 @@ const Contact = () => {
           </div>
         </div>
 
-        <div className="flex flex-col gap-10 items-start justify-center max-w-[300p x] md:w-full">
+        {/* <div className="flex flex-col gap-10 items-start justify-center max-w-[300p x] md:w-full">
           <div className="flex flex-col gap-2.5 text-[#181616] items-center justify-center my-[34px]">
             <h2 className="text-[35px] font-medium">Other ways to reach us:</h2>
           </div>
@@ -180,7 +180,7 @@ const Contact = () => {
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       <ShowContactModal

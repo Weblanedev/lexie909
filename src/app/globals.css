@@ -13,7 +13,7 @@ html {
 }
 
 .service-name {
-  @apply text-yellow-600 uppercase block font-semibold text-sm tracking-widest;
+  @apply text-amber-700 uppercase block font-semibold text-sm tracking-widest;
 }
 
 .title {

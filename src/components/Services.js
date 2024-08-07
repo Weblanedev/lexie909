@@ -26,15 +26,7 @@ const Services = () => {
   return (
     <section className="relative container px-5 md:px-16 mx-auto">
       <div className="flex gap-10 items-center flex-col-reverse lg:flex-row">
-        <div className="relative w-full flex-1">
-          <Image
-            src="https://images.pexels.com/photos/271816/pexels-photo-271816.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-            width={500}
-            height={500}
-            alt="video banner"
-            className="object-contain w-full rounded-3xl"
-          />
-        </div>
+        
         <div className="flex gap-5 md:gap-10 flex-col flex-1">
           <div className="flex flex-col gap-4">
             <span className="service-name text-center lg:text-left">
@@ -45,11 +37,25 @@ const Services = () => {
             </h2>
           </div>
           <p className="leading-loose">
-          At Psalmstones Technologies Ltd, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. From stylish furniture to elegant accents, we offer everything you need to create spaces that reflect your personality and enhance your lifestyle.
-          At Psalmstones Technologies Ltd, our mission is to inspire and empower you to express your unique sense of style through beautifully curated home decor. With our extensive range of products, personalized service, and expert advice, we're here to make your home decor dreams a reality
+          At Lexie909, we believe that furniture is more than just pieces for your home—it's an expression of your personal style and a reflection of who you are. Founded in 2023, we are dedicated to providing exceptional quality furniture that combines timeless design with modern functionality.
+
+       Lexie909 was born out of a passion for creating beautiful, well-crafted furniture that enhances every living space. Our journey began with a vision to revolutionize the way people think about furniture. We wanted to blend aesthetics with practicality, offering pieces that are not only stylish but also durable and functional.
+       Our mission is simple: to deliver high-quality furniture that transforms spaces and enriches lives. We are committed to offering products that not only meet but exceed our customers’ expectations. Our focus is on combining classic elegance with modern trends, ensuring that each piece is both beautiful and practical.
+          </p>
+          <p className="leading-loose">
+          At Lexie909, we promise to deliver furniture that transforms your home into a space you’ll love. Our commitment to quality, design, and customer satisfaction is unwavering. We invite you to explore our collection and experience the difference that comes with choosing Lexie909 for your home furnishings.
           </p>
         </div>
       </div>
+      <div className="relative w-full flex-1 mt-[50px]">
+          <Image
+            src="https://images.pexels.com/photos/276551/pexels-photo-276551.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            width={500}
+            height={500}
+            alt="video banner"
+            className="object-contain w-full rounded-3xl"
+          />
+        </div>
     </section>
   );
 };

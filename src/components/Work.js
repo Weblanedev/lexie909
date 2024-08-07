@@ -16,7 +16,7 @@ const WorkCard = ({ num, title, desc }) => {
 
 const Work = () => {
   return (
-    <section className="w-full bg-yellow-500 text-white bg-[url('/work/workbg.png')] bg-cover bg-no-repeat bg-center">
+    <section className="w-full bg-amber-500 text-white bg-[url('/work/workbg.png')] bg-cover bg-no-repeat bg-center">
       <div className="flex flex-col gap-10 lg:gap-16 container mx-auto md:px-16 px-5 py-12 sm:py-20 md:py-36">
         <div>
           <span className="uppercase block font-semibold text-sm tracking-widest text-center text-yellow-200">

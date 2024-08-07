@@ -48,7 +48,7 @@ const Navbar = () => {
       <div className="container px-5 md:px-16 flex items-center justify-between mx-auto">
 
         <h2 className="text-3xl cursor-pointer" onClick={() => router.push("/")}>
-          <span className="text-yellow-600">PSALMSTONES LTD</span>
+          <span className="text-amber-700">Lexie909</span>
         </h2>
 
         <div>
@@ -67,7 +67,7 @@ const Navbar = () => {
             </button>
             <li
               className={`
-                capitalize border-b py-4 md:border-none md:py-0 hover:text-yellow-600`}
+                capitalize border-b py-4 md:border-none md:py-0 hover:text-amber-700`}
 
             >
               <Link href={`/about`}>About</Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
             {["products",].map((link) => (
               <li
                 key={link}
-                className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-yellow-600 cursor-pointer`}
+                className={`capitalize border-b py-4 md:border-none md:py-0 hover:text-amber-700 cursor-pointer`}
                 onClick={() => {
                 }}
               >
@@ -84,7 +84,7 @@ const Navbar = () => {
             ))}
             <li
               className={`
-                capitalize border-b py-4 md:border-none md:py-0 hover:text-yellow-600`}
+                capitalize border-b py-4 md:border-none md:py-0 hover:text-amber-700`}
 
             >
               <Link href={`/contact`}>Contact</Link>
@@ -93,7 +93,7 @@ const Navbar = () => {
         </div>
 
         <div className="flex items-center gap-2 sm:gap-4 md:gap-2 lg:gap-4">
-          <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-yellow-600 border-yellow-600 hover:border-yellow-600 hover:bg-yellow-600 hover:text-white rounded-full">
+          <button className="capitalize text-sm sm:text-base border-2 hover:border-2 font-semibold sm:py-3 py-2 px-3 sm:px-6 text-amber-700 border-amber-700 hover:border-amber-700 hover:bg-amber-700 hover:text-white rounded-full">
             <Link href={"/contact"}>Get Started</Link>
           </button>
           <button

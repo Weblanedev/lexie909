@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
             <p className="max-w-xs mt-4 text-sm">
-            At PSALMSTONES TECHNOLOGIES LTD, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. 
+            At lexie909, we're passionate about helping you turn your house into a home with our exquisite selection of home decor products. 
             </p>
         
           </div>

@@ -371,7 +371,7 @@ const Billing = () => {
               type="submit"
               disabled={isButtonDisabled}
               onClick={handleSubmit}
-              className={`group gap-[8px] mt-[30px] w-[100%] text-center text-[16px] sm:text-[24px] rounded-full font-body bg-white text-yellow-600 ${!isButtonDisabled && 'hover:bg-yellow-600 hover:text-white'} px-[30px] sm:px-[97px] py-[15px] sm:py-[21px] border border-yellow-400 transition-one`}>
+              className={`group gap-[8px] mt-[30px] w-[100%] text-center text-[16px] sm:text-[24px] rounded-full font-body bg-white text-amber-700 ${!isButtonDisabled && 'hover:bg-amber-700 hover:text-white'} px-[30px] sm:px-[97px] py-[15px] sm:py-[21px] border border-yellow-400 transition-one`}>
               Place Order
             </button>
           </form>
